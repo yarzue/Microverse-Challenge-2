@@ -1,0 +1,61 @@
+header
+{
+    width: 100vw;
+    height: 10%;
+    position: fixed;
+    display: flex;
+    top:0;
+    left: 0;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header img 
+{
+    width: 50px;
+    height: 50px;
+}
+
+header a 
+{
+    flex: 1;
+}
+
+section
+{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#home
+{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-color: azure;
+}
+
+#home div 
+{
+    background-color: antiquewhite;
+    width: 50%;
+    margin: 5px;
+    height: 30%;}
+
+@media (max-width: 600px) {
+    header
+    {
+        background-color: aqua;
+    }
+    #home div 
+    {
+        width: 100%;
+        background-color: blueviolet;
+    }
+}
